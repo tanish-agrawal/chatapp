@@ -1,0 +1,39 @@
+# Target build folder (Maven compile output)
+target/
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Portable Maven binaries
+.maven/
+
+# H2 local database data storage folder
+data/
+*.db
+
+# Log files
+*.log
+
+# IDE specific files (Eclipse, IntelliJ IDEA, NetBeans, VS Code)
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.classpath
+.project
+.settings/
+bin/
+.metadata/
+.recommenders/
+.history/
+
+# OS-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+config.bat
+node_modules
